@@ -13,3 +13,9 @@ img {
 .book {
     display: flex;
 }
+
+/*Style cover id*/
+#cover {
+    width: 250px;
+    height: 400px;
+}
