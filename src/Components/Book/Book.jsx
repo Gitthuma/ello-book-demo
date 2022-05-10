@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cover() {
+function Book() {
   return (
     //create div of class book
     //create 3 inputs of type checkbox with id c1 to c3
@@ -75,4 +75,4 @@ function Cover() {
   )
 }
 
-export default Cover
+export default Book
