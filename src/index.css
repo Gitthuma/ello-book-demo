@@ -20,5 +20,5 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(90deg, #fff 50%, #4a1010 50%, );
+    background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
 }
