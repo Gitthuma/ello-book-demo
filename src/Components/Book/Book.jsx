@@ -35,13 +35,13 @@ function Book() {
           
           <div className='back'>
             <img src={Apple} alt="Apple image" />
-            <label className='back__btn' for='c1'></label>
+            <label className='back__btn' for='c1'>Back</label>
           </div>
 
           <div className='front'>
             <h2>Apple</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
-            <label className='next__btn' for='c1'></label>
+            <label className='next__btn' for='c1'>Next</label>
           </div>
 
         </div>
@@ -50,13 +50,13 @@ function Book() {
           
           <div className='back'>
             <img src={Strawberry} alt="Strawberry image" />
-            <label className='back__btn' for='c2'></label>
+            <label className='back__btn' for='c2'>Back</label>
           </div>
 
           <div className='front'>
             <h2>Strawberry</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
-            <label className='next__btn' for='c2'></label>
+            <label className='next__btn' for='c2'>Next</label>
           </div>
 
         </div>
@@ -65,13 +65,13 @@ function Book() {
           
           <div className='back'>
             <img src={Pineapple} alt="Pineapple image" />
-            <label className='back__btn' for='c3'></label>
+            <label className='back__btn' for='c3'>Back</label>
           </div>
 
           <div className='front'>
             <h2>Pineapple</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
-            <label className='next__btn' for='c3'></label>
+            <label className='next__btn' for='c3'>Next</label>
           </div>
 
         </div>
