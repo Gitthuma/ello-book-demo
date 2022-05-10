@@ -1,10 +1,10 @@
 import React from 'react'
-//import book component and apply
+//import Book component and apply it
 import Book from './Components/Book/Book'
 
 function App() {
   return (
-    
+
     <Book />
     
   )
