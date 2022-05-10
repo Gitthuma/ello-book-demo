@@ -27,3 +27,17 @@ img {
     position: relative;
     perspective: 1500px;
 }
+
+/*Style flip*/
+.flip {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: 0.5s;
+    color: #000;
+}
