@@ -73,3 +73,12 @@ p {
     backface-visibility: hidden;
     background-color: #000;
 }
+
+/*Style next__btn*/
+.next__btn {
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+    color: #000;
+}
