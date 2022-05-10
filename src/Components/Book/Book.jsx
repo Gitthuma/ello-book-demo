@@ -1,5 +1,10 @@
 import React from 'react'
 
+//import images and apply them
+import Apple from '../../Assets/Apple.jpeg'
+import Strawberry from '../../Assets/Strawberry.jpeg'
+import Pineapple from '../../Assets/Pineapple.jpeg'
+
 function Book() {
   return (
     //create div of class book
@@ -27,7 +32,7 @@ function Book() {
         <div className='flip' id='p1'>
           
           <div className='back'>
-            <img src="" alt="" />
+            <img src={Apple} alt="Apple image" />
             <label className='back__btn' for='c1'></label>
           </div>
 
@@ -42,7 +47,7 @@ function Book() {
         <div className='flip' id='p2'>
           
           <div className='back'>
-            <img src="" alt="" />
+            <img src={Strawberry} alt="Strawberry image" />
             <label className='back__btn' for='c2'></label>
           </div>
 
@@ -57,7 +62,7 @@ function Book() {
         <div className='flip' id='p3'>
           
           <div className='back'>
-            <img src="" alt="" />
+            <img src={Pineapple} alt="Pineapple image" />
             <label className='back__btn' for='c3'></label>
           </div>
 
