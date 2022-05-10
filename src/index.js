@@ -8,4 +8,4 @@ import App from './App'
 import './index.css'
 
 //Render app component
-ReactDOM.render(<App />, document.querySelector('#root'))
+ReactDOM.render(<App />, document.querySelector("#root"))
