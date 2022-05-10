@@ -38,7 +38,7 @@ function Book() {
             <label className='back__btn' for='c1'></label>
           </div>
 
-          <div className='font'>
+          <div className='front'>
             <h2>Apple</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
             <label className='next__btn' for='c1'></label>
@@ -53,7 +53,7 @@ function Book() {
             <label className='back__btn' for='c2'></label>
           </div>
 
-          <div className='font'>
+          <div className='front'>
             <h2>Strawberry</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
             <label className='next__btn' for='c2'></label>
@@ -68,7 +68,7 @@ function Book() {
             <label className='back__btn' for='c3'></label>
           </div>
 
-          <div className='font'>
+          <div className='front'>
             <h2>Pineapple</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
             <label className='next__btn' for='c3'></label>
