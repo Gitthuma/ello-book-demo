@@ -41,3 +41,9 @@ img {
     transition: 0.5s;
     color: #000;
 }
+
+/*Style p*/
+p {
+    font-size: 14px;
+    line-height: 24px;
+}
