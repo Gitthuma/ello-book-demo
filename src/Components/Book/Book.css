@@ -19,3 +19,11 @@ img {
     width: 250px;
     height: 400px;
 }
+
+/*Style flip__book*/
+.flip__book {
+    width: 250px;
+    height: 400px;
+    position: relative;
+    perspective: 1500px;
+}
