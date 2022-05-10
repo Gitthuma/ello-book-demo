@@ -11,3 +11,14 @@
     list-style: none;
     text-decoration: none;
 }
+
+/*Style body*/
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, #fff 50%, #4a1010 50%, );
+}
