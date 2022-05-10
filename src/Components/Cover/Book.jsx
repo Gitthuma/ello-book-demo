@@ -7,6 +7,7 @@ function Cover() {
     //create div for image of class cover
     //create div of class flip__book
     //inside div of class flip__book create div of class flip with id of p1
+    //inside div of class flip create div of class back
     <div className='book'>
       
       <input type="checkbox" id='c1' />
@@ -20,6 +21,9 @@ function Cover() {
 
       <div className='flip__book'>
         <div className='flip' id='p1'>
+          <div className='back'>
+
+          </div>
 
         </div>
 
