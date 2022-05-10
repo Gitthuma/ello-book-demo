@@ -82,3 +82,12 @@ p {
     cursor: pointer;
     color: #000;
 }
+
+/*style back__btn*/
+.back__btn {
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    cursor: pointer;
+    color: #fff;
+}
