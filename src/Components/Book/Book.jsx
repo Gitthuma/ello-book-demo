@@ -1,6 +1,7 @@
 import React from 'react'
 
 //import images and apply them
+import Fruits from '../../Assets/Fruits.jpeg'
 import Apple from '../../Assets/Apple.jpeg'
 import Strawberry from '../../Assets/Strawberry.jpeg'
 import Pineapple from '../../Assets/Pineapple.jpeg'
@@ -23,7 +24,7 @@ function Book() {
       <input type="checkbox" id='c3' />
 
       <div id='cover'>
-        <img src="" alt="" />
+        <img src={Fruits} alt="Cover Photo of fruits" />
 
       </div>
 
