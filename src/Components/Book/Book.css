@@ -104,3 +104,19 @@ p {
 #p3 {
     z-index: 1;
 }
+
+/*Style c1 to c3*/
+#c1:checked ~ .flip__book #p1{
+    transform: rotateY(-180deg);
+    z-index: 1;
+}
+
+#c2:checked ~ .flip__book #p2{
+    transform: rotateY(-180deg);
+    z-index: 2;
+}
+
+#c3:checked ~ .flip__book #p3{
+    transform: rotateY(-180deg);
+    z-index: 3;
+}
