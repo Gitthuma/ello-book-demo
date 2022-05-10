@@ -1,4 +1,5 @@
 import React from 'react'
+import './Book.css'
 
 //import images and apply them
 import Fruits from '../../Assets/Fruits.jpeg'
