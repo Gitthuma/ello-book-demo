@@ -10,6 +10,7 @@ function Cover() {
     //inside div of class flip create div of class back
     //inside div of class back, add img of and label of class back-btn for C1
     //Create div of class font with h3, p and label of class next__btn for c1
+    //Duplicate two times div of class flip with iots content
     <div className='book'>
       
       <input type="checkbox" id='c1' />
@@ -22,25 +23,54 @@ function Cover() {
       </div>
 
       <div className='flip__book'>
+        
         <div className='flip' id='p1'>
+          
           <div className='back'>
             <img src="" alt="" />
             <label className='back__btn' for='c1'></label>
-
           </div>
 
           <div className='font'>
             <h2>Apple</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
             <label className='next__btn' for='c1'></label>
+          </div>
 
+        </div>
+
+        <div className='flip' id='p2'>
+          
+          <div className='back'>
+            <img src="" alt="" />
+            <label className='back__btn' for='c2'></label>
+          </div>
+
+          <div className='font'>
+            <h2>Strawberry</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
+            <label className='next__btn' for='c2'></label>
+          </div>
+
+        </div>
+
+        <div className='flip' id='p3'>
+          
+          <div className='back'>
+            <img src="" alt="" />
+            <label className='back__btn' for='c3'></label>
+          </div>
+
+          <div className='font'>
+            <h2>Pineapple</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, minus.</p>
+            <label className='next__btn' for='c3'></label>
           </div>
 
         </div>
 
       </div>
       
-
     </div>
   )
 }
